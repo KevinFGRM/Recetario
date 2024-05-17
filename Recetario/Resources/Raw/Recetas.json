@@ -1,0 +1,177 @@
+[
+  {
+    "nombre": "Tarta de Manzana",
+    "ingredientes": [
+      "4 manzanas",
+      "200g de azúcar",
+      "200g de harina",
+      "100g de mantequilla",
+      "2 huevos",
+      "1 cucharadita de canela en polvo"
+    ],
+    "instrucciones": "Precalienta el horno a 180°C. Pela, descorazona y corta las manzanas en rodajas finas. En un bol, mezcla la harina, el azúcar y la canela. Añade la mantequilla cortada en trozos pequeños y los huevos. Mezcla bien hasta obtener una masa homogénea. En un molde para tarta, coloca una capa de masa y encima una capa de manzanas. Repite hasta acabar con la masa y las manzanas, terminando con una capa de manzanas en la parte superior. Hornea durante 40-45 minutos o hasta que la tarta esté dorada. Deja enfriar antes de servir.",
+    "url": "https://unareceta.com/wp-content/uploads/2016/10/tarta-de-manzana.jpg"
+  },
+  {
+    "nombre": "Sopa de Tomate",
+    "ingredientes": [
+      "1 kg de tomates maduros",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "1 zanahoria",
+      "1 pimiento rojo",
+      "1 litro de caldo de verduras",
+      "Aceite de oliva",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": "Pela y trocea los tomates, la cebolla, el ajo, la zanahoria y el pimiento rojo. En una olla, calienta un poco de aceite de oliva y añade los vegetales troceados. Cocina a fuego medio durante unos 10 minutos, removiendo ocasionalmente. Añade el caldo de verduras, lleva a ebullición y luego reduce el fuego. Cocina a fuego lento durante unos 20-25 minutos. Retira del fuego y deja enfriar un poco. Usa una licuadora o batidora de mano para hacer puré la sopa hasta que quede suave. Vuelve a calentar la sopa antes de servir, y ajusta la sazón con sal y pimienta al gusto.",
+    "url": "https://leptymon.com/wp-content/uploads/2022/02/leptymon09.jpg"
+  },
+  {
+    "nombre": "Ensalada César",
+    "ingredientes": [
+      "Lechuga romana",
+      "Pollo a la parrilla",
+      "Pan tostado en cubos",
+      "Queso parmesano rallado",
+      "Salsa César",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": "Lava y corta la lechuga romana. Cocina el pollo a la parrilla y córtalo en tiras. En un bol grande, mezcla la lechuga, el pollo, los cubos de pan tostado y el queso parmesano. Añade la salsa César y mezcla bien. Sazona con sal y pimienta al gusto antes de servir.",
+    "url": "https://www.divinacocina.es/wp-content/uploads/ensalada-cesar-rapida-facil.jpg"
+  },
+  {
+    "nombre": "Pasta Carbonara",
+    "ingredientes": [
+      "200g de pasta",
+      "100g de panceta",
+      "2 huevos",
+      "50g de queso parmesano rallado",
+      "2 dientes de ajo",
+      "Aceite de oliva",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": "Cocina la pasta según las instrucciones del paquete. Mientras tanto, corta la panceta en trozos pequeños y fríela en una sartén con un poco de aceite de oliva. Añade el ajo picado y cocina hasta que esté dorado. En un bol, bate los huevos y mezcla con el queso parmesano rallado. Escurre la pasta y añádela a la sartén con la panceta. Retira la sartén del fuego y añade la mezcla de huevo y queso, removiendo rápidamente para que los huevos no se cuajen. Sazona con sal y pimienta al gusto antes de servir.",
+    "url": "https://www.cookingclassy.com/wp-content/uploads/2020/10/spaghetti-carbonara-01-1024x1536.jpg"
+  },
+  {
+    "nombre": "Pollo al Curry",
+    "ingredientes": [
+      "500g de pechugas de pollo",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "1 trozo de jengibre",
+      "1 lata de leche de coco",
+      "2 cucharadas de pasta de curry",
+      "Aceite de oliva",
+      "Sal y pimienta al gusto",
+      "Cilantro fresco para decorar"
+    ],
+    "instrucciones": "Corta el pollo en trozos pequeños. Pica la cebolla, el ajo y el jengibre. En una sartén grande, calienta un poco de aceite de oliva y añade la cebolla, el ajo y el jengibre. Cocina hasta que la cebolla esté transparente. Añade el pollo y cocina hasta que esté dorado. Añade la pasta de curry y cocina por 2 minutos más. Vierte la leche de coco y mezcla bien. Deja cocinar a fuego lento durante 15-20 minutos, hasta que el pollo esté cocido y la salsa se haya espesado. Sazona con sal y pimienta al gusto y decora con cilantro fresco antes de servir.",
+    "url": "https://cdn.ilclubdellericette.it/wp-content/uploads/2017/05/pollo-al-curry.jpg"
+  },
+  {
+    "nombre": "Brownies de Chocolate",
+    "ingredientes": [
+      "200g de chocolate negro",
+      "150g de mantequilla",
+      "200g de azúcar",
+      "3 huevos",
+      "100g de harina",
+      "1 cucharadita de esencia de vainilla",
+      "1 pizca de sal"
+    ],
+    "instrucciones": "Precalienta el horno a 180°C. Derrite el chocolate y la mantequilla juntos en un bol grande. Añade el azúcar y mezcla bien. Añade los huevos uno a uno, mezclando bien después de cada adición. Añade la esencia de vainilla. Incorpora la harina y la sal, mezclando hasta obtener una masa homogénea. Vierte la mezcla en un molde para hornear previamente engrasado. Hornea durante 25-30 minutos, o hasta que un palillo insertado en el centro salga limpio. Deja enfriar antes de cortar en porciones y servir.",
+    "url": "https://dailydishrecipes.com/wp-content/uploads/2019/10/Maple-Coffee-Brownies-Featured-Image.jpg"
+  },
+  {
+    "nombre": "Guacamole",
+    "ingredientes": [
+      "3 aguacates maduros",
+      "1 tomate",
+      "1/2 cebolla",
+      "1 diente de ajo",
+      "1 limón",
+      "Cilantro fresco",
+      "Sal al gusto"
+    ],
+    "instrucciones": "Corta los aguacates por la mitad, retira el hueso y saca la pulpa con una cuchara. En un bol grande, aplasta la pulpa con un tenedor. Pica finamente el tomate, la cebolla, el ajo y el cilantro. Añádelos al bol con el aguacate. Exprime el limón sobre la mezcla para evitar que se oxide y para dar sabor. Sazona con sal al gusto y mezcla bien. Sirve inmediatamente con nachos o como acompañamiento.",
+    "url": "https://guidingstars.com/wp-content/uploads/2010/10/Chunky-Guacamole_74126800692-1.jpg"
+  },
+  {
+    "nombre": "Gazpacho",
+    "ingredientes": [
+      "1 kg de tomates maduros",
+      "1 pimiento verde",
+      "1 pepino",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "4 cucharadas de aceite de oliva",
+      "2 cucharadas de vinagre de vino blanco",
+      "Sal al gusto",
+      "Agua fría"
+    ],
+    "instrucciones": "Lava bien los tomates, el pimiento y el pepino. Corta los tomates en cuartos y el pimiento y el pepino en trozos grandes. Pela y pica la cebolla y los dientes de ajo. Coloca todos los vegetales en una licuadora junto con el aceite de oliva, el vinagre y la sal. Mezcla bien hasta obtener una textura suave. Añade agua fría al gusto para ajustar la consistencia. Pasa la mezcla por un colador para eliminar las pieles y semillas. Refrigera durante al menos 2 horas antes de servir bien frío.",
+    "url": "https://img2.rtve.es/imagenes/asi-preparan-andaluces-gazpacho-autentico/1621621774172.jpg"
+  },
+  {
+    "nombre": "Paella de Mariscos",
+    "ingredientes": [
+      "400g de arroz",
+      "1 litro de caldo de pescado",
+      "200g de gambas",
+      "200g de calamares",
+      "200g de mejillones",
+      "1 pimiento rojo",
+      "1 tomate",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "Azafrán",
+      "Aceite de oliva",
+      "Sal al gusto"
+    ],
+    "instrucciones": "Calienta el aceite de oliva en una paellera. Pica la cebolla, el ajo, el pimiento y el tomate. Sofríelos en el aceite hasta que estén tiernos. Añade los calamares cortados en anillos y las gambas, y cocina por unos minutos. Agrega el arroz y remueve bien para que se impregne del sofrito. Añade el caldo de pescado caliente, el azafrán y la sal. Cocina a fuego medio-alto durante 10 minutos. Coloca los mejillones sobre el arroz y reduce el fuego. Cocina a fuego lento durante otros 10 minutos o hasta que el arroz esté cocido y el líquido se haya absorbido. Deja reposar unos minutos antes de servir.",
+    "url": "https://e00-telva.uecdn.es/apps/cocina/imagenes/recetas/arroz/paella_marisco.jpg"
+  },
+  {
+    "nombre": "Tiramisú",
+    "ingredientes": [
+      "400g de queso mascarpone",
+      "4 huevos",
+      "100g de azúcar",
+      "200g de bizcochos de soletilla",
+      "300ml de café fuerte",
+      "Cacao en polvo",
+      "1 cucharada de licor de café (opcional)"
+    ],
+    "instrucciones": "Separa las claras de las yemas. Bate las yemas con el azúcar hasta obtener una mezcla cremosa. Añade el queso mascarpone y mezcla bien hasta obtener una crema homogénea. Bate las claras a punto de nieve e incorpóralas a la mezcla anterior con movimientos suaves y envolventes. Moja los bizcochos en el café (mezclado con el licor si lo usas) y colócalos en el fondo de un molde. Cubre con una capa de la crema de mascarpone. Repite las capas hasta acabar con la crema, terminando con una capa de crema. Refrigera al menos 4 horas (mejor si es toda la noche). Antes de servir, espolvorea con cacao en polvo.",
+    "url": "https://jetextramar.com/wp-content/uploads/2020/06/3d9c691fd3a1e80f63a4a70c2a2e3155.jpg"
+  },
+  {
+    "nombre": "Pizza Margherita",
+    "ingredientes": [
+      "1 base de pizza (masa)",
+      "200g de salsa de tomate",
+      "250g de mozzarella fresca",
+      "10 hojas de albahaca fresca",
+      "2 cucharadas de aceite de oliva",
+      "Sal al gusto"
+    ],
+    "instrucciones": "Precalienta el horno a 220°C. Extiende la salsa de tomate sobre la base de pizza de manera uniforme. Desmenuza la mozzarella fresca y distribúyela sobre la salsa de tomate. Añade unas hojas de albahaca fresca por encima. Riega con aceite de oliva y sazona con sal al gusto. Hornea la pizza durante 10-12 minutos, o hasta que la masa esté dorada y el queso derretido y burbujeante. Retira del horno y añade algunas hojas de albahaca fresca adicionales antes de servir.",
+    "url": "https://www.scattidigusto.it/wp-content/uploads/2014/07/pizza-margherita-Franco-Pepe-1280x853.jpg"
+  },
+  {
+    "nombre": "Pizza Pepperoni",
+    "ingredientes": [
+      "1 base de pizza (masa)",
+      "200g de salsa de tomate",
+      "250g de mozzarella rallada",
+      "100g de pepperoni en rodajas",
+      "1 cucharada de orégano seco",
+      "2 cucharadas de aceite de oliva",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": "Precalienta el horno a 220°C. Extiende la salsa de tomate sobre la base de pizza. Espolvorea la mozzarella rallada uniformemente sobre la salsa. Distribuye las rodajas de pepperoni sobre el queso. Añade una pizca de orégano seco, sal y pimienta al gusto. Riega con aceite de oliva. Hornea durante 12-15 minutos, o hasta que la masa esté dorada y el queso derretido y burbujeante. Retira del horno y deja reposar unos minutos antes de cortar y servir.",
+    "url": "https://riotfest.org/wp-content/uploads/2016/10/sdfl.jpg"
+  }
+]

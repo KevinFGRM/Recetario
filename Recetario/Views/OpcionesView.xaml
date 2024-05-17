@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recetario.Views.OpcionesView"
+             Title="OpcionesView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".3*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Grid.RowSpan="2" Aspect="Fill" Source="plantilla.jpeg"/>
+        <VerticalStackLayout Grid.Row="1" Margin="5" WidthRequest="300" HeightRequest="250">
+            <Button BackgroundColor="LightCyan" Margin="5" TextColor="Black" Text="Eliminar Todos Los Favoritos"  Command="{Binding EliminarTodosLosFavoritosCommand}"></Button>
+            <Button BackgroundColor="LightCyan" Margin="5" TextColor="Black" Text="Regresar"  Command="{Binding EntrarCommand}"></Button>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

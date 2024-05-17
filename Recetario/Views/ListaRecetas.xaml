@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recetario.Views.ListaRecetas"
+             Title="ListaRecetas"
+             BackgroundColor="White"
+             xmlns:viewmodels="clr-namespace:Recetario.ViewModels"
+             x:Name="paginap">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".1*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height=".1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Picker Margin="5" BackgroundColor="LightYellow" TextColor="Black" HorizontalTextAlignment="Center" Grid.Row="0" ItemsSource="{Binding ListaElegida}" SelectedItem="{Binding ListaListas}"></Picker>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".2*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Command="{Binding OpcionesCommand}" Grid.Column="0" Margin="5" BackgroundColor="Gray" Text="☰" FontSize="20" TextColor="Black"></Button>
+            <Entry Grid.Column="1" Text="{Binding SearchText}" TextColor="Black" BackgroundColor="AliceBlue" Margin="5"></Entry>
+        </Grid>
+        <CollectionView Grid.Row="2" ItemsSource="{Binding RecetasLista}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView Margin="5">
+                        <SwipeView.RightItems>
+                            <SwipeItem Text="Favoritos" BackgroundColor="LightGoldenrodYellow" Command="{Binding Source={x:Reference paginap},Path=BindingContext.AgregarFavoritosCommand}" CommandParameter="{Binding .}">
+                            </SwipeItem>
+                            <SwipeItem Text="Ver Detalles" BackgroundColor="LightBlue" Command="{Binding Source={x:Reference paginap},Path=BindingContext.VerRecetaCommand}" CommandParameter="{Binding .}">
+                            </SwipeItem>
+                        </SwipeView.RightItems>
+                        <SwipeView.LeftItems>
+                            <SwipeItem Text="Quitar Favoritos" BackgroundColor="LightGoldenrodYellow" Command="{Binding Source={x:Reference paginap},Path=BindingContext.EliminarFavoritosCommand}" CommandParameter="{Binding .}">
+                            </SwipeItem>
+                        </SwipeView.LeftItems>
+                        <VerticalStackLayout>
+                            <Image Margin="5,0,5,0" Source="{Binding url}"></Image>
+                            <Label Margin="5,0,5,0" HorizontalTextAlignment="Center" BackgroundColor="AliceBlue" TextColor="Black" FontAttributes="Bold" Text="{Binding nombre}"></Label>
+                        </VerticalStackLayout>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button BackgroundColor="LightCyan"  Grid.Row="3" Margin="5" TextColor="Black" Text="Regresar" VerticalOptions="EndAndExpand" Command="{Binding PantallaPrincipalCommand}"></Button>
+    </Grid>
+</ContentPage>

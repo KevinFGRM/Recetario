@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Recetario.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Recetario"
+    Shell.FlyoutBehavior="Flyout"
+    xmlns:view="clr-namespace:Recetario.Views"
+    xmlns:viewmodels="clr-namespace:Recetario.ViewModels"
+    Shell.NavBarIsVisible="False">
+    <Shell.BindingContext>
+        <viewmodels:RecetasViewModel />
+    </Shell.BindingContext>
+    <ShellContent
+        Title="Presentacion"
+        ContentTemplate="{DataTemplate view:PresentacionView}"
+        Route="Presentacion" />    
+    <ShellContent
+        Title="Opciones"
+        ContentTemplate="{DataTemplate view:OpcionesView}"
+        Route="Opciones" />
+
+    <ShellContent
+        Title="ListaRecetas"
+        ContentTemplate="{DataTemplate view:ListaRecetas}"
+        Route="ListaRecetas" />
+    <ShellContent FlyoutItemIsVisible="False"
+        Title="Receta"
+        ContentTemplate="{DataTemplate view:RecetaView}"
+        Route="Receta" />
+
+</Shell>

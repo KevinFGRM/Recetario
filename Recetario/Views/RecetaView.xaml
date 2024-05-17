@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Recetario.Views.RecetaView"
+             Title="RecetaView"
+             Background="Peru">
+    <ScrollView>
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <!-- Row para el botón -->
+            </Grid.RowDefinitions>
+            <VerticalStackLayout Grid.Row="0">
+                <Image Source="{Binding Receta.url}" HeightRequest="200" Aspect="AspectFill" />
+                <Label BackgroundColor="AliceBlue" TextColor="Black" Text="{Binding Receta.nombre}" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label BackgroundColor="Black" FontSize="18" HorizontalTextAlignment="Center" Text="Instrucciones" FontAttributes="Bold"></Label>
+                <Label BackgroundColor="AliceBlue"  TextColor="Black" Text="{Binding Receta.instrucciones}"></Label>
+                <Label BackgroundColor="LightGray" TextColor="Black" FontSize="18" HorizontalTextAlignment="Center" Text="ingredientes" FontAttributes="Bold"></Label>
+                <CollectionView BackgroundColor="Black" ItemsSource="{Binding Receta.ingredientes}">
+                </CollectionView>
+            </VerticalStackLayout>
+            <Button Grid.Row="2" HeightRequest="40" Margin="5" Text="Regresar" Command="{Binding EntrarCommand}" />
+        </Grid>
+    </ScrollView>
+</ContentPage>
